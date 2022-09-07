@@ -49,22 +49,27 @@ body {
     border-radius: 8px;
 }
 
+.imge{
+    position:absolute;
+    right: 160px;
+}
+
 .banner_wrapper {
     background-image: url('../images/2.png');
     /* min-height: 100vh; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     padding: 180px 0 980px;
-    /* padding-top: 130px;
-    padding-right: 0px; */
+    padding-top: 300px;
+    /* padding-right: 0px; */
 
 }
 
-.banner_wrapper .img {
-    position: relative;
-    align: center;
+.top {
+	position: absolute;
+	top: 990px;
+	left: 280px;
 }
 
 .text .h-2 {
@@ -91,7 +96,7 @@ body {
     background-repeat: no-repeat;
     height: 500;
     background-size: cover;
-    padding-top: 200px;
+    padding-top: 300px;
 }
 
 .txt .h-2 {
